@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Miscs -->
+    <style name="RobotoLight" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RobotoMedium" parent="@style/RobotoRegular">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="RobotoRegular" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+</resources>

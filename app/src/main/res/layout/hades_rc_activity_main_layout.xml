@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<de.dlyt.yanndroid.oneui.layout.ToolbarLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/hades_mainactivity_toolbarlayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:expanded="false" app:title="@string/hadesrc">
+
+    <FrameLayout
+        android:id="@+id/hades_mainactivity_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@color/item_background_color" app:layout_location="main_content" />
+
+    <RelativeLayout
+        android:id="@+id/hades_mainactivity_bottom_container" android:layout_width="fill_parent" android:layout_height="60.0dip" android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/background_color" app:layout_location="footer">
+        <de.dlyt.yanndroid.oneui.widget.TabLayout
+            android:id="@+id/hades_mainactivity_bottomnavview" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?tabStyle"/>
+    </RelativeLayout>
+
+</de.dlyt.yanndroid.oneui.layout.ToolbarLayout>

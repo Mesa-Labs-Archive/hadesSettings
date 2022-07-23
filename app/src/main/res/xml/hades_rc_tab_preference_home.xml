@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<de.dlyt.yanndroid.oneui.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LayoutPreference
+        android:key="hades_rc_home_logo" android:layout="@layout/hades_rc_view_home_logo" android:selectable="false"/>
+
+    <InsetPreferenceCategory />
+
+    <LayoutPreference
+        android:key="hades_rc_home_links" android:layout="@layout/hades_rc_view_home_links" android:selectable="false"/>
+
+    <de.dlyt.yanndroid.oneui.preference.PreferenceCategory>
+        <Preference
+            android:key="hades_rc_home_info_device" android:title="@string/hades_rc_home_device_name"/>
+        <Preference
+            android:key="hades_rc_home_info_manufacturing" android:title="@string/hades_rc_home_manufacturing_date"/>
+        <Preference
+            android:key="hades_rc_home_info_temperature" android:title="@string/hades_rc_home_temperature"/>
+        <Preference
+            android:key="hades_rc_home_info_uptime" android:title="@string/hades_rc_home_uptime"/>
+    </de.dlyt.yanndroid.oneui.preference.PreferenceCategory>
+
+    <de.dlyt.yanndroid.oneui.preference.PreferenceCategory>
+        <Preference
+            android:key="hades_rc_home_info_rom" android:title="@string/hades_rc_home_rom_version"/>
+        <Preference
+            android:key="hades_rc_home_info_android" android:title="@string/hades_rc_home_android_version"/>
+        <Preference
+            android:key="hades_rc_home_info_oneui" android:title="@string/hades_rc_home_oneui_version"/>
+        <Preference
+            android:key="hades_rc_home_info_kernel" android:title="@string/hades_rc_home_kernel_build"/>
+        <Preference
+            android:key="hades_rc_home_info_bootloader" android:title="@string/hades_rc_home_bootloader_build"/>
+        <Preference
+            android:key="hades_rc_home_info_modem" android:title="@string/hades_rc_home_modem_build"/>
+        <Preference
+            android:key="hades_rc_home_info_build" android:title="@string/hades_rc_home_build_version"/>
+    </de.dlyt.yanndroid.oneui.preference.PreferenceCategory>
+
+    <de.dlyt.yanndroid.oneui.preference.PreferenceCategory>
+        <SwitchPreferenceScreen
+            android:key="hades_rc_wifi_adb" android:title="@string/hades_rc_wifi_adb" android:defaultValue="false"/>
+    </de.dlyt.yanndroid.oneui.preference.PreferenceCategory>
+
+    <InsetPreferenceCategory />
+
+</de.dlyt.yanndroid.oneui.preference.PreferenceScreen>

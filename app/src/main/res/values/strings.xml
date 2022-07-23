@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">hSettings</string>
+
+    <string name="hadesrc">hadesSettings</string>
+    <string name="hades_open_hk">Open hKtweaks</string>
+    <string name="hades_about_page">About hadesROM Settings</string>
+
+    <string name="hades_rc_disabled">Disabled</string>
+
+    <!-- Home Tab -->
+    <string name="hades_rc_link_xda">XDA Thread</string>
+    <string name="hades_rc_link_tg_support">Support Group</string>
+    <string name="hades_rc_link_tg_channel">Telegram Channel</string>
+    <string name="hades_rc_home_device_name">Device name</string>
+    <string name="hades_rc_home_manufacturing_date">Manufacturing date</string>
+    <string name="hades_rc_home_rom_version">ROM version</string>
+    <string name="hades_rc_home_android_version">Android version</string>
+    <string name="hades_rc_home_oneui_version">One UI version</string>
+    <string name="hades_rc_home_kernel_build">Kernel version</string>
+    <string name="hades_rc_home_bootloader_build">Bootloader version</string>
+    <string name="hades_rc_home_modem_build">Baseband version</string>
+    <string name="hades_rc_home_build_version">Build number</string>
+    <string name="hades_rc_home_temperature">Temperature</string>
+    <string name="hades_rc_home_uptime">Up time</string>
+    <string name="hades_rc_home_temperature_c_toast">Using °C unit</string>
+    <string name="hades_rc_home_temperature_f_toast">Using °F unit</string>
+
+    <string name="hades_rc_wifi_adb">Wi-Fi ADB</string>
+    <string name="hades_rc_wifi_adb_subheader">Connect your device to a PC via ADB over a Wi-Fi network.</string>
+    <string name="hades_rc_wifi_adb_subheader_enabled">Connect your device to a PC via ADB over a Wi-Fi network.\n\nTo do this, open a terminal window in your PC and type the following command:</string>
+
+    <!-- About Page -->
+    <string name="hades_credits">Credits</string>
+    <string name="hades_open_source_licence">Open source licenses</string>
+    <string name="hades_about_page_optional_text">Coded by BlackMesa123</string>
+
+    <!-- Credits Page -->
+    <string name="hades_credits_page_description">The following page contains all the libraries used in this app.</string>
+
+    <string name="hades_credits_page_lib1_name">Android Jetpack Library</string>
+    <string name="hades_credits_page_lib1_desc">"@Google - Licensed with Apache 2.0"</string>
+    <string name="hades_credits_page_lib2_name">Material Components Library</string>
+    <string name="hades_credits_page_lib2_desc">"@Google - Licensed with Apache 2.0"</string>
+    <string name="hades_credits_page_lib3_name">OneUI Design Library</string>
+    <string name="hades_credits_page_lib3_desc">"@Yanndroid, BlackMesa123 - Licensed with MIT"</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/hades_menu_hk" android:icon="@drawable/ic_oui_manage" android:title="@string/hades_open_hk" app:showAsAction="always" />
+    <item
+        android:id="@+id/hades_menu_about_app" android:title="@string/hades_about_page" app:showAsAction="never" />
+</menu>

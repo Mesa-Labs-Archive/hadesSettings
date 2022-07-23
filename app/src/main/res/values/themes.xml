@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="hades_rc_MainTheme" parent="@style/OneUITheme">
+        <item name="colorPrimary">@color/hades_rc_colorprimary</item>
+        <item name="colorPrimaryDark">@color/hades_rc_colorprimarydark</item>
+        <item name="colorSecondary">@color/hades_rc_colorsecondary</item>
+    </style>
+
+    <!-- About Page -->
+    <style name="hades_rc_AboutPageTheme" parent="@style/OneUIAboutTheme">
+        <item name="colorPrimary">@color/hades_rc_colorprimary</item>
+        <item name="colorPrimaryDark">@color/hades_rc_colorprimarydark</item>
+        <item name="colorSecondary">@color/hades_rc_colorsecondary</item>
+    </style>
+</resources>

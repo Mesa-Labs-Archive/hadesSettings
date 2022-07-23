@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content" android:focusable="false" android:clickable="false" android:background="@color/item_background_color">
+    <LinearLayout
+        android:id="@+id/hades_home_links_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:focusable="false" android:clickable="false">
+
+        <include
+            android:id="@+id/hades_home_link_1" android:layout_width="0.0dip" android:layout_height="72.0dip" android:layout_weight="1.0" layout="@layout/hades_view_links_item" />
+
+        <View
+            android:layout_width="@dimen/sesl_list_divider_height" android:layout_height="32.0dip" android:background="@color/sesl_list_divider_color" />
+
+        <include
+            android:id="@+id/hades_home_link_2" android:layout_width="0.0dip" android:layout_height="72.0dip" android:layout_weight="1.0" layout="@layout/hades_view_links_item" />
+
+        <View
+            android:layout_width="@dimen/sesl_list_divider_height" android:layout_height="32.0dip" android:background="@color/sesl_list_divider_color" />
+
+        <include
+            android:id="@+id/hades_home_link_3" android:layout_width="0.0dip" android:layout_height="72.0dip" android:layout_weight="1.0" layout="@layout/hades_view_links_item" />
+
+    </LinearLayout>
+</FrameLayout>
